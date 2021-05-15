@@ -15,8 +15,8 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": false,
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "../lib",
     "baseUrl": ".",
-    "declarationDir": "./types"
+    "jsx": "react",
   }
 }
