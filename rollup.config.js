@@ -71,7 +71,7 @@ const config = {
   plugins: [
     nodeResolve(),
     commonjs({ include: 'node_modules/**' }),
-    typescript({}),
+    typescript({ tsconfig: './src/tsconfig.json', declaration: false }),
     peerDepsExternal(),
     // babel({}),
   ],

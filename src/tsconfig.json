@@ -17,6 +17,6 @@
     "declaration": true,
     "outDir": "../lib",
     "baseUrl": ".",
-    "jsx": "react",
+    "jsx": "react"
   }
 }
