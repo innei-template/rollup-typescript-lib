@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2017",
     "lib": [
       "ESNext",
       "DOM",
@@ -16,5 +16,6 @@
     "sourceMap": false,
     "declaration": true,
     "outDir": "./dist",
+    "baseUrl": "./src"
   }
 }
