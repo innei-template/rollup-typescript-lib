@@ -3,7 +3,7 @@ import typescript from '@rollup/plugin-typescript'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
-import { babel } from '@rollup/plugin-babel'
+// import { babel } from '@rollup/plugin-babel'
 
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
@@ -72,6 +72,7 @@ const config = {
     nodeResolve(),
     commonjs({ include: 'node_modules/**' }),
     typescript({ tsconfig: './src/tsconfig.json', declaration: false }),
+    // @ts-ignore
     peerDepsExternal(),
     // babel({}),
   ],
