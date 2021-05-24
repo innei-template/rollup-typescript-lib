@@ -1,8 +1,8 @@
-import { range } from 'lodash-es'
 import { getTime } from 'utils'
+export const date = getTime()
 const test = () => {
   console.log('hello, rollup')
-  range(0, 10).map(console.log)
+  console.log(date)
+
 }
-export const date = getTime()
 export { test }

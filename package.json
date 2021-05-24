@@ -21,7 +21,9 @@
     "package": "yarn build && rollup -c",
     "prepackage": "rm -rf lib && rm -rf build && rm -rf esm",
     "dev": "vite",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist",
+    "test": "jest --env=jsdom --colors --coverage test",
+    "test:watch": "jest --env=jsdom --colors --coverage test --watch"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
@@ -29,11 +31,13 @@
     "@rollup/plugin-typescript": "^8.2.1",
     "@types/lodash-es": "4.17.4",
     "@types/node": "15.0.2",
+    "@types/jest": "^26.0.23",
     "gh-pages": "3.1.0",
-    "lodash-es": "4.17.21",
+    "jest": "^26.6.3",
     "rollup": "2.47.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^26.5.6",
     "tslib": "2.2.0",
     "typescript": "4.2.4",
     "vite": "2.2.4",
