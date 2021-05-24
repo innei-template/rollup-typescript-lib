@@ -4,9 +4,10 @@
   "description": "",
   "author": "Innei",
   "license": "MIT",
-  "main": "build/index.cjs.js",
+  "main": "lib/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
+  "typings": "lib/index.d.ts",
   "browser": "build/index.umd.min.js",
   "files": [
     "build",
