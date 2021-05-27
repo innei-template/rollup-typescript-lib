@@ -15,6 +15,9 @@
     "esm",
     "readme.md"
   ],
+  "engines": {
+    "pnpm": ">=6"
+  },
   "scripts": {
     "predeploy": "rm -rf dist",
     "build": "tsc --build src/tsconfig.json && tsc --build src/tsconfig.cjs.json",
