@@ -18,7 +18,7 @@ specifiers:
   tslib: 2.2.0
   typescript: 4.2.4
   vite: 2.2.4
-  vite-tsconfig-paths: 3.3.12
+  vite-tsconfig-paths: 3.3.13
 
 devDependencies:
   '@rollup/plugin-commonjs': 19.0.0_rollup@2.47.0
@@ -38,7 +38,7 @@ devDependencies:
   tslib: 2.2.0
   typescript: 4.2.4
   vite: 2.2.4
-  vite-tsconfig-paths: 3.3.12_vite@2.2.4
+  vite-tsconfig-paths: 3.3.13_vite@2.2.4
 
 packages:
 
@@ -3814,8 +3814,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-tsconfig-paths/3.3.12_vite@2.2.4:
-    resolution: {integrity: sha512-CTRGt8Zo/P0kdoSNGMp9wWLQ4x9b7kxE705vaoi5hNBtTFHNNno5FHHbDbnc3kiiYrjnmluXNXuUN9Ouw5i1iQ==}
+  /vite-tsconfig-paths/3.3.13_vite@2.2.4:
+    resolution: {integrity: sha512-G7OO+1g2H6xVN61RIp1xFjvciqJoF5cGKcWfP6ZOZFeA8QRy2X7yaGUZLhXtKxNLEsR2MthDm7KwSNTKQHzwvA==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
