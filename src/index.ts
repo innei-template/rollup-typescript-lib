@@ -5,4 +5,4 @@ const test = () => {
   console.log(date)
 
 }
-export { test }
+export { test, getTime }
