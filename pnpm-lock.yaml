@@ -7,7 +7,7 @@ specifiers:
   '@types/jest': 26.0.23
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
-  esbuild: 0.12.7
+  esbuild: 0.12.8
   gh-pages: 3.2.0
   jest: 27.0.4
   rollup: 2.51.1
@@ -27,7 +27,7 @@ devDependencies:
   '@types/jest': 26.0.23
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
-  esbuild: 0.12.7
+  esbuild: 0.12.8
   gh-pages: 3.2.0
   jest: 27.0.4
   rollup: 2.51.1
@@ -1220,6 +1220,12 @@ packages:
 
   /esbuild/0.12.7:
     resolution: {integrity: sha512-vxENKWBo928ErLiT/uUv8Sl2EoC5cF3cZzCTc8hDEh9ZAZ75xblJCr72NeJo74lxWaGopIePZPIWq1qDpLUHQQ==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /esbuild/0.12.8:
+    resolution: {integrity: sha512-sx/LwlP/SWTGsd9G4RlOPrXnIihAJ2xwBUmzoqe2nWwbXORMQWtAGNJNYLBJJqa3e9PWvVzxdrtyFZJcr7D87g==}
     hasBin: true
     requiresBuild: true
     dev: true
