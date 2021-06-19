@@ -17,7 +17,7 @@ specifiers:
   ts-jest: 27.0.3
   tslib: 2.3.0
   typescript: 4.3.4
-  vite: 2.3.7
+  vite: 2.3.8
   vite-tsconfig-paths: 3.3.13
 
 devDependencies:
@@ -37,8 +37,8 @@ devDependencies:
   ts-jest: 27.0.3_jest@27.0.4+typescript@4.3.4
   tslib: 2.3.0
   typescript: 4.3.4
-  vite: 2.3.7
-  vite-tsconfig-paths: 3.3.13_vite@2.3.7
+  vite: 2.3.8
+  vite-tsconfig-paths: 3.3.13_vite@2.3.8
 
 packages:
 
@@ -1216,12 +1216,6 @@ packages:
 
   /emoji-regex/8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
-    dev: true
-
-  /esbuild/0.12.7:
-    resolution: {integrity: sha512-vxENKWBo928ErLiT/uUv8Sl2EoC5cF3cZzCTc8hDEh9ZAZ75xblJCr72NeJo74lxWaGopIePZPIWq1qDpLUHQQ==}
-    hasBin: true
-    requiresBuild: true
     dev: true
 
   /esbuild/0.12.9:
@@ -2524,8 +2518,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss/8.3.0:
-    resolution: {integrity: sha512-+ogXpdAjWGa+fdYY5BQ96V/6tAo+TdSSIMP5huJBIygdWwKtVoB5JWZ7yUd4xZ8r+8Kvvx4nyg/PQ071H4UtcQ==}
+  /postcss/8.3.5:
+    resolution: {integrity: sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       colorette: 1.2.2
@@ -2670,14 +2664,6 @@ packages:
       rollup: 2.52.1
       serialize-javascript: 4.0.0
       terser: 5.7.0
-    dev: true
-
-  /rollup/2.51.1:
-    resolution: {integrity: sha512-8xfDbAtBleXotb6qKEHWuo/jkn94a9dVqGc7Rwl3sqspCVlnCfbRek7ldhCARSi7h32H0xR4QThm1t9zHN+3uw==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /rollup/2.52.1:
@@ -3037,7 +3023,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-tsconfig-paths/3.3.13_vite@2.3.7:
+  /vite-tsconfig-paths/3.3.13_vite@2.3.8:
     resolution: {integrity: sha512-G7OO+1g2H6xVN61RIp1xFjvciqJoF5cGKcWfP6ZOZFeA8QRy2X7yaGUZLhXtKxNLEsR2MthDm7KwSNTKQHzwvA==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3046,20 +3032,20 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.9.0
-      vite: 2.3.7
+      vite: 2.3.8
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.3.7:
-    resolution: {integrity: sha512-Y0xRz11MPYu/EAvzN94+FsOZHbSvO6FUvHv127CyG7mV6oDoay2bw+g5y9wW3Blf8OY3chaz3nc/DcRe1IQ3Nw==}
+  /vite/2.3.8:
+    resolution: {integrity: sha512-QiEx+iqNnJntSgSF2fWRQvRey9pORIrtNJzNyBJXwc+BdzWs83FQolX84cTBo393cfhObrtWa6180dAa4NLDiQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
-      esbuild: 0.12.7
-      postcss: 8.3.0
+      esbuild: 0.12.9
+      postcss: 8.3.5
       resolve: 1.20.0
-      rollup: 2.51.1
+      rollup: 2.52.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
