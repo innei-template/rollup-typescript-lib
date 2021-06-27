@@ -7,7 +7,7 @@ specifiers:
   '@types/jest': 26.0.23
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
-  esbuild: 0.12.9
+  esbuild: 0.12.10
   gh-pages: 3.2.3
   jest: 27.0.5
   rollup: 2.52.3
@@ -27,7 +27,7 @@ devDependencies:
   '@types/jest': 26.0.23
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
-  esbuild: 0.12.9
+  esbuild: 0.12.10
   gh-pages: 3.2.3
   jest: 27.0.5
   rollup: 2.52.3
@@ -1216,6 +1216,12 @@ packages:
 
   /emoji-regex/8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+    dev: true
+
+  /esbuild/0.12.10:
+    resolution: {integrity: sha512-KTZ84HqvKL1V76cVwv5W2/es+Bhdv8O9DYRKhJ0wHf1d2iLH6WEGX0zh7W+UzniWnZbUZg2c7GsdH2aWeFsfzQ==}
+    hasBin: true
+    requiresBuild: true
     dev: true
 
   /esbuild/0.12.9:
