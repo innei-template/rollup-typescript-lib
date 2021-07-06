@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 19.0.0
   '@rollup/plugin-node-resolve': 13.0.0
   '@rollup/plugin-typescript': 8.2.1
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
   esbuild: 0.12.15
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 19.0.0_rollup@2.52.7
   '@rollup/plugin-node-resolve': 13.0.0_rollup@2.52.7
   '@rollup/plugin-typescript': 8.2.1_ec8281ca6b723d6f50ac48788d981683
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
   esbuild: 0.12.15
@@ -719,8 +719,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/26.0.23:
-    resolution: {integrity: sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==}
+  /@types/jest/26.0.24:
+    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
