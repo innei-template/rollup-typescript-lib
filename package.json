@@ -38,7 +38,7 @@
     "esbuild": "0.12.15",
     "gh-pages": "3.2.3",
     "jest": "27.0.6",
-    "rollup": "2.53.0",
+    "rollup": "2.53.1",
     "rollup-plugin-dts": "3.0.2",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
