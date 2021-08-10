@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 19.0.2
   '@rollup/plugin-node-resolve': 13.0.4
   '@rollup/plugin-typescript': 8.2.5
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
   esbuild: 0.12.19
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 19.0.2_rollup@2.56.2
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.2
   '@rollup/plugin-typescript': 8.2.5_0d8eef8d44b5b6a1e80065fa70064694
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
   esbuild: 0.12.19
@@ -34,7 +34,7 @@ devDependencies:
   rollup-plugin-dts: 3.0.2_rollup@2.56.2+typescript@4.3.5
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.56.2
   rollup-plugin-terser: 7.0.2_rollup@2.56.2
-  ts-jest: 27.0.4_52cc4273aa16028085013af47e479e10
+  ts-jest: 27.0.4_442e9978f2a8aee0556473dbeff50cf9
   tslib: 2.3.0
   typescript: 4.3.5
   vite: 2.4.4
@@ -708,8 +708,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/26.0.24:
-    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
+  /@types/jest/27.0.0:
+    resolution: {integrity: sha512-IlpQZVpxufe+3qPaAqEoSPHVSxnJh1cf0BqqWHJeKiAUbwnHdmNzjP3ZCWSZSTbmAGXQPNk9QmM3Bif0pR54rg==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
@@ -2894,7 +2894,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-jest/27.0.4_52cc4273aa16028085013af47e479e10:
+  /ts-jest/27.0.4_442e9978f2a8aee0556473dbeff50cf9:
     resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -2912,7 +2912,7 @@ packages:
       babel-jest:
         optional: true
     dependencies:
-      '@types/jest': 26.0.24
+      '@types/jest': 27.0.0
       bs-logger: 0.2.6
       buffer-from: 1.1.1
       fast-json-stable-stringify: 2.1.0
