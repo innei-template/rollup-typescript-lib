@@ -15,7 +15,7 @@ specifiers:
   rollup-plugin-peer-deps-external: 2.2.4
   rollup-plugin-terser: 7.0.2
   ts-jest: 27.0.4
-  tslib: 2.3.0
+  tslib: 2.3.1
   typescript: 4.3.5
   vite: 2.4.4
   vite-tsconfig-paths: 3.3.13
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 19.0.2_rollup@2.56.2
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.2
-  '@rollup/plugin-typescript': 8.2.5_0d8eef8d44b5b6a1e80065fa70064694
+  '@rollup/plugin-typescript': 8.2.5_5f9d52eb8f5b9c5f8da2582f59355eb7
   '@types/jest': 27.0.0
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
@@ -35,7 +35,7 @@ devDependencies:
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.56.2
   rollup-plugin-terser: 7.0.2_rollup@2.56.2
   ts-jest: 27.0.4_442e9978f2a8aee0556473dbeff50cf9
-  tslib: 2.3.0
+  tslib: 2.3.1
   typescript: 4.3.5
   vite: 2.4.4
   vite-tsconfig-paths: 3.3.13_vite@2.4.4
@@ -605,7 +605,7 @@ packages:
       rollup: 2.56.2
     dev: true
 
-  /@rollup/plugin-typescript/8.2.5_0d8eef8d44b5b6a1e80065fa70064694:
+  /@rollup/plugin-typescript/8.2.5_5f9d52eb8f5b9c5f8da2582f59355eb7:
     resolution: {integrity: sha512-QL/LvDol/PAGB2O0S7/+q2HpSUNodpw7z6nGn9BfoVCPOZ0r4EALrojFU29Bkoi2Hr2jgTocTejJ5GGWZfOxbQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -616,7 +616,7 @@ packages:
       '@rollup/pluginutils': 3.1.0_rollup@2.56.2
       resolve: 1.20.0
       rollup: 2.56.2
-      tslib: 2.3.0
+      tslib: 2.3.1
       typescript: 4.3.5
     dev: true
 
@@ -2940,8 +2940,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.3.0:
-    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+  /tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
   /type-check/0.3.2:
