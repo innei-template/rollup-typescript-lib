@@ -29,7 +29,7 @@
     "test:watch": "jest --env=jsdom --colors --coverage test --watch"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "19.0.2",
+    "@rollup/plugin-commonjs": "20.0.0",
     "@rollup/plugin-node-resolve": "13.0.4",
     "@types/jest": "27.0.1",
     "@rollup/plugin-typescript": "8.2.5",
