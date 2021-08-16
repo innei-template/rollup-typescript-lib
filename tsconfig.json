@@ -17,5 +17,10 @@
     "declaration": true,
     "outDir": "./dist",
     "baseUrl": "./src",
+    "paths": {
+      "~/*": [
+        "*"
+      ]
+    }
   }
 }
