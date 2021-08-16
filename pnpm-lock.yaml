@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rollup/plugin-commonjs': 19.0.2
+  '@rollup/plugin-commonjs': 20.0.0
   '@rollup/plugin-node-resolve': 13.0.4
   '@rollup/plugin-typescript': 8.2.5
   '@types/jest': 27.0.1
@@ -21,7 +21,7 @@ specifiers:
   vite-tsconfig-paths: 3.3.13
 
 devDependencies:
-  '@rollup/plugin-commonjs': 19.0.2_rollup@2.56.2
+  '@rollup/plugin-commonjs': 20.0.0_rollup@2.56.2
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.2
   '@rollup/plugin-typescript': 8.2.5_5f9d52eb8f5b9c5f8da2582f59355eb7
   '@types/jest': 27.0.1
@@ -563,8 +563,8 @@ packages:
       chalk: 4.1.1
     dev: true
 
-  /@rollup/plugin-commonjs/19.0.2_rollup@2.56.2:
-    resolution: {integrity: sha512-gBjarfqlC7qs0AutpRW/hrFNm+cd2/QKxhwyFa+srbg1oX7rDsEU3l+W7LAUhsAp9mPJMAkXDhLbQaVwEaE8bA==}
+  /@rollup/plugin-commonjs/20.0.0_rollup@2.56.2:
+    resolution: {integrity: sha512-5K0g5W2Ol8hAcTHqcTBHiA7M58tfmYi1o9KxeJuuRNpGaTa5iLjcyemBitCBcKXaHamOBBEH2dGom6v6Unmqjg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.38.3
