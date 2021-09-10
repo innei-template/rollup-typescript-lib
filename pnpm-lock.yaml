@@ -16,14 +16,14 @@ specifiers:
   rollup-plugin-terser: 7.0.2
   ts-jest: 27.0.5
   tslib: 2.3.1
-  typescript: 4.3.5
+  typescript: 4.4.3
   vite: 2.5.6
   vite-tsconfig-paths: 3.3.14
 
 devDependencies:
   '@rollup/plugin-commonjs': 20.0.0_rollup@2.56.3
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.3
-  '@rollup/plugin-typescript': 8.2.5_fb60d1099d0f1062e1f455c5bc85cce0
+  '@rollup/plugin-typescript': 8.2.5_d671d3387afbf1a138cd7f3f4762053b
   '@types/jest': 27.0.1
   '@types/lodash-es': 4.17.4
   '@types/node': 15.0.2
@@ -31,12 +31,12 @@ devDependencies:
   gh-pages: 3.2.3
   jest: 27.1.1
   rollup: 2.56.3
-  rollup-plugin-dts: 3.0.2_rollup@2.56.3+typescript@4.3.5
+  rollup-plugin-dts: 3.0.2_rollup@2.56.3+typescript@4.4.3
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.56.3
   rollup-plugin-terser: 7.0.2_rollup@2.56.3
-  ts-jest: 27.0.5_4a2868d8b6fd06f464380a834e6bd59e
+  ts-jest: 27.0.5_04e1385bcb7e61957a9335c26551e89f
   tslib: 2.3.1
-  typescript: 4.3.5
+  typescript: 4.4.3
   vite: 2.5.6
   vite-tsconfig-paths: 3.3.14_vite@2.5.6
 
@@ -605,7 +605,7 @@ packages:
       rollup: 2.56.3
     dev: true
 
-  /@rollup/plugin-typescript/8.2.5_fb60d1099d0f1062e1f455c5bc85cce0:
+  /@rollup/plugin-typescript/8.2.5_d671d3387afbf1a138cd7f3f4762053b:
     resolution: {integrity: sha512-QL/LvDol/PAGB2O0S7/+q2HpSUNodpw7z6nGn9BfoVCPOZ0r4EALrojFU29Bkoi2Hr2jgTocTejJ5GGWZfOxbQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -617,7 +617,7 @@ packages:
       resolve: 1.20.0
       rollup: 2.56.3
       tslib: 2.3.1
-      typescript: 4.3.5
+      typescript: 4.4.3
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.56.3:
@@ -2586,7 +2586,7 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /rollup-plugin-dts/3.0.2_rollup@2.56.3+typescript@4.3.5:
+  /rollup-plugin-dts/3.0.2_rollup@2.56.3+typescript@4.4.3:
     resolution: {integrity: sha512-hswlsdWu/x7k5pXzaLP6OvKRKcx8Bzprksz9i9mUe72zvt8LvqAb/AZpzs6FkLgmyRaN8B6rUQOVtzA3yEt9Yw==}
     engines: {node: '>=v12.22.1'}
     peerDependencies:
@@ -2595,7 +2595,7 @@ packages:
     dependencies:
       magic-string: 0.25.7
       rollup: 2.56.3
-      typescript: 4.3.5
+      typescript: 4.4.3
     optionalDependencies:
       '@babel/code-frame': 7.12.13
     dev: true
@@ -2878,7 +2878,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-jest/27.0.5_4a2868d8b6fd06f464380a834e6bd59e:
+  /ts-jest/27.0.5_04e1385bcb7e61957a9335c26551e89f:
     resolution: {integrity: sha512-lIJApzfTaSSbtlksfFNHkWOzLJuuSm4faFAfo5kvzOiRAuoN4/eKxVJ2zEAho8aecE04qX6K1pAzfH5QHL1/8w==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -2905,7 +2905,7 @@ packages:
       lodash: 4.17.21
       make-error: 1.3.6
       semver: 7.3.5
-      typescript: 4.3.5
+      typescript: 4.4.3
       yargs-parser: 20.2.7
     dev: true
 
@@ -2949,8 +2949,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.3.5:
-    resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
+  /typescript/4.4.3:
+    resolution: {integrity: sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
