@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.0.4
   '@rollup/plugin-typescript': 8.2.5
   '@types/jest': 27.0.1
-  '@types/lodash-es': 4.17.4
+  '@types/lodash-es': 4.17.5
   '@types/node': 15.0.2
   esbuild: 0.12.26
   gh-pages: 3.2.3
@@ -25,7 +25,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.3
   '@rollup/plugin-typescript': 8.2.5_d671d3387afbf1a138cd7f3f4762053b
   '@types/jest': 27.0.1
-  '@types/lodash-es': 4.17.4
+  '@types/lodash-es': 4.17.5
   '@types/node': 15.0.2
   esbuild: 0.12.26
   gh-pages: 3.2.3
@@ -719,8 +719,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/lodash-es/4.17.4:
-    resolution: {integrity: sha512-BBz79DCJbD2CVYZH67MBeHZRX++HF+5p8Mo5MzjZi64Wac39S3diedJYHZtScbRVf4DjZyN6LzA0SB0zy+HSSQ==}
+  /@types/lodash-es/4.17.5:
+    resolution: {integrity: sha512-SHBoI8/0aoMQWAgUHMQ599VM6ZiSKg8sh/0cFqqlQQMyY9uEplc0ULU5yQNzcvdR4ZKa0ey8+vFmahuRbOCT1A==}
     dependencies:
       '@types/lodash': 4.14.168
     dev: true
