@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@rollup/plugin-commonjs': 20.0.0
   '@rollup/plugin-node-resolve': 13.0.5
-  '@rollup/plugin-typescript': 8.2.5
+  '@rollup/plugin-typescript': 8.3.0
   '@types/jest': 27.0.2
   '@types/lodash-es': 4.17.5
   '@types/node': 15.0.2
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 20.0.0_rollup@2.58.0
   '@rollup/plugin-node-resolve': 13.0.5_rollup@2.58.0
-  '@rollup/plugin-typescript': 8.2.5_11969cb7979bf76fd37eb17f863ea3c2
+  '@rollup/plugin-typescript': 8.3.0_11969cb7979bf76fd37eb17f863ea3c2
   '@types/jest': 27.0.2
   '@types/lodash-es': 4.17.5
   '@types/node': 15.0.2
@@ -605,8 +605,8 @@ packages:
       rollup: 2.58.0
     dev: true
 
-  /@rollup/plugin-typescript/8.2.5_11969cb7979bf76fd37eb17f863ea3c2:
-    resolution: {integrity: sha512-QL/LvDol/PAGB2O0S7/+q2HpSUNodpw7z6nGn9BfoVCPOZ0r4EALrojFU29Bkoi2Hr2jgTocTejJ5GGWZfOxbQ==}
+  /@rollup/plugin-typescript/8.3.0_11969cb7979bf76fd37eb17f863ea3c2:
+    resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       rollup: ^2.14.0
