@@ -5,7 +5,6 @@ import { terser } from 'rollup-plugin-terser'
 // import esbuild from 'rollup-plugin-esbuild'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
-import dts from 'rollup-plugin-dts'
 
 // import { babel } from '@rollup/plugin-babel'
 
@@ -100,11 +99,6 @@ const config = [
     ],
 
     treeshake: true,
-  },
-  {
-    input: 'src/index.ts',
-    output: [{ file: 'build/index.d.ts', format: 'es' }],
-    plugins: [dts()],
   },
 ]
 
