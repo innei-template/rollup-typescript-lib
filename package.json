@@ -54,7 +54,7 @@
     "@rollup/plugin-typescript": "8.3.0",
     "@types/jest": "27.0.3",
     "@types/lodash-es": "4.17.5",
-    "@types/node": "16.11.10",
+    "@types/node": "16.11.11",
     "@zerollup/ts-transform-paths": "1.7.18",
     "dts-bundle-generator": "5.9.0",
     "esbuild": "0.14.0",
