@@ -60,7 +60,7 @@
     "esbuild": "0.14.1",
     "gh-pages": "3.2.3",
     "husky": "7.0.4",
-    "jest": "27.4.2",
+    "jest": "27.4.3",
     "lint-staged": "12.1.2",
     "rollup": "2.60.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
