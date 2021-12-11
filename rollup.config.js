@@ -18,7 +18,7 @@ const globals = {
   ...packageJson.devDependencies,
 }
 
-const dir = 'build'
+const dir = 'dist'
 
 /**
  * @type {import('rollup').RollupOptions[]}
