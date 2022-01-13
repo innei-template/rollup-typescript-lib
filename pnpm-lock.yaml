@@ -25,7 +25,7 @@ specifiers:
   tslib: 2.3.1
   ttypescript: 1.5.13
   typescript: 4.4.4
-  vite: 2.7.3
+  vite: 2.7.11
   vite-tsconfig-paths: 3.3.17
 
 devDependencies:
@@ -53,8 +53,8 @@ devDependencies:
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.4.4
   typescript: 4.4.4
-  vite: 2.7.3
-  vite-tsconfig-paths: 3.3.17_vite@2.7.3
+  vite: 2.7.11
+  vite-tsconfig-paths: 3.3.17_vite@2.7.11
 
 packages:
 
@@ -3971,8 +3971,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss/8.4.4:
-    resolution: {integrity: sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==}
+  /postcss/8.4.5:
+    resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.1.30
@@ -4713,7 +4713,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-tsconfig-paths/3.3.17_vite@2.7.3:
+  /vite-tsconfig-paths/3.3.17_vite@2.7.11:
     resolution: {integrity: sha512-wx+rfC53moVLxMBj2EApJZgY6HtvWUFVZ4dBxNGYBxSSqU6UaHdKlcOxrfGDxyTGtYEr9beWCryHn18C4EtZkg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -4722,13 +4722,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.9.0
-      vite: 2.7.3
+      vite: 2.7.11
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.7.3:
-    resolution: {integrity: sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==}
+  /vite/2.7.11:
+    resolution: {integrity: sha512-W1OVwJmtuxnzt9HwZ1AebVLgvsgNpe4TK/sxvF+1x2y8MRnTEHvaPqxy9A67IYb5BR0Q+nENmLYa3QfESmp5GQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -4744,7 +4744,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.13.12
-      postcss: 8.4.4
+      postcss: 8.4.5
       resolve: 1.20.0
       rollup: 2.61.1
     optionalDependencies:
