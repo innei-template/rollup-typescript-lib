@@ -20,7 +20,7 @@ specifiers:
   rollup: 2.64.0
   rollup-plugin-peer-deps-external: 2.2.4
   rollup-plugin-terser: 7.0.2
-  ts-jest: 27.1.2
+  ts-jest: 27.1.3
   tslib: 2.3.1
   ttypescript: 1.5.13
   typescript: 4.4.4
@@ -47,7 +47,7 @@ devDependencies:
   rollup: 2.64.0
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.64.0
   rollup-plugin-terser: 7.0.2_rollup@2.64.0
-  ts-jest: 27.1.2_66384c16d2d04e63ecb486a305451023
+  ts-jest: 27.1.3_66384c16d2d04e63ecb486a305451023
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.4.4
   typescript: 4.4.4
@@ -4378,8 +4378,8 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-jest/27.1.2_66384c16d2d04e63ecb486a305451023:
-    resolution: {integrity: sha512-eSOiJOWq6Hhs6Khzk5wKC5sgWIXgXqOCiIl1+3lfnearu58Hj4QpE5tUhQcA3xtZrELbcvAGCsd6HB8OsaVaTA==}
+  /ts-jest/27.1.3_66384c16d2d04e63ecb486a305451023:
+    resolution: {integrity: sha512-6Nlura7s6uM9BVUAoqLH7JHyMXjz8gluryjpPXxr3IxZdAXnU6FhjvVLHFtfd1vsE1p8zD1OJfskkc0jhTSnkA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
