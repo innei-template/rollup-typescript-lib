@@ -15,7 +15,7 @@ specifiers:
   gh-pages: 3.2.3
   husky: 7.0.4
   jest: 27.4.7
-  lint-staged: 12.2.0
+  lint-staged: 12.2.1
   prettier: 2.5.1
   rollup: 2.64.0
   rollup-plugin-peer-deps-external: 2.2.4
@@ -42,7 +42,7 @@ devDependencies:
   gh-pages: 3.2.3
   husky: 7.0.4
   jest: 27.4.7
-  lint-staged: 12.2.0
+  lint-staged: 12.2.1
   prettier: 2.5.1
   rollup: 2.64.0
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.64.0
@@ -748,7 +748,7 @@ packages:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
-      picomatch: 2.3.0
+      picomatch: 2.3.1
       rollup: 2.64.0
     dev: true
 
@@ -3369,8 +3369,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/12.2.0:
-    resolution: {integrity: sha512-TnNciMBhmEqzqM+RvzqqdvrG4TsI8wCDMX1Vg9+rj2Y9uY70Nq84Mb1WOIiwxW9l5tUlCOqtY5La71RM2fSgfA==}
+  /lint-staged/12.2.1:
+    resolution: {integrity: sha512-VCVcA9C2Vt5HHxSR4EZVZFJcQRJH984CGBeY+cJ/xed4mBd+JidbM/xbKcCq5ASaygAV0iITtdsCTnID7h/1OQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3749,11 +3749,6 @@ packages:
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: true
-
-  /picomatch/2.3.0:
-    resolution: {integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==}
-    engines: {node: '>=8.6'}
     dev: true
 
   /picomatch/2.3.1:
