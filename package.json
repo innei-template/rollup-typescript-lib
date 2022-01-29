@@ -46,7 +46,7 @@
     "test:watch": "jest --env=jsdom --colors --coverage test --watch"
   },
   "devDependencies": {
-    "@innei-util/eslint-config-react-ts": "0.1.2",
+    "@innei-util/eslint-config-react-ts": "0.2.0",
     "@innei-util/eslint-config-ts": "latest",
     "@innei-util/prettier": "latest",
     "@rollup/plugin-commonjs": "21.0.1",
