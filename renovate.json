@@ -1,6 +1,8 @@
 {
+  "enabled": false,
   "extends": [
     "config:base",
+    ":semanticCommits",
     ":automergePatch",
     ":automergeTypes",
     ":automergeTesters",
