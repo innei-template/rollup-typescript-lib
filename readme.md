@@ -13,7 +13,7 @@ pnpm i
 Bundle your source code via tsc, rollup.
 
 ```
-yarn package
+npm run package
 ```
 
 ### Dev
@@ -21,7 +21,7 @@ yarn package
 Start dev mode by Vite.
 
 ```
-yarn dev
+npm run dev
 ```
 
 ### Delopy
@@ -29,8 +29,8 @@ yarn dev
 Delopy example to GitHub Pages.
 
 ```
-yarn delopy
-yarn publish
+npm run delopy
+npm run publish
 ```
 
 # Additional
