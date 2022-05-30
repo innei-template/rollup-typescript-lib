@@ -59,7 +59,7 @@
     "lint-staged": "12.4.3",
     "prettier": "2.6.2",
     "rollup": "2.75.3",
-    "rollup-plugin-import-css": "3.0.3",
+    "rollup-plugin-postcss": "4.0.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-terser": "7.0.2",
     "tsconfig-replace-paths": "0.0.11",
