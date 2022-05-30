@@ -30,19 +30,21 @@
       "eslint --cache"
     ]
   },
+  "bump": {
+    "before": [
+      "npm run package"
+    ],
+    "publish": true
+  },
   "scripts": {
-    "prepare": "husky install",
-    "predeploy": "rm -rf example/dist",
-    "prebuild": "rm -rf rm -rf lib && rm -rf esm",
-    "build": "ttsc --build src/tsconfig.build.json && ttsc --build src/tsconfig.cjs.json",
+    "prebuild": "rm -rf lib && rm -rf esm",
+    "build": "tsc --build ./src/tsconfig.build.json && tsc --build src/tsconfig.cjs.json",
+    "postbuild": "tsconfig-replace-paths -p src/tsconfig.build.json && tsconfig-replace-paths -p src/tsconfig.cjs.json && npm run types",
+    "types": "rm -rf types && tsc --build src/tsconfig.types.json && tsconfig-replace-paths -p src/tsconfig.types.json",
     "package": "NODE_ENV=production npm run build && rollup -c",
-    "postpackage": "dts-bundle-generator -o dist/index.d.ts src/index.ts --project tsconfig.json  --no-check",
     "prepackage": "rm -rf build",
-    "dev": "vite",
-    "build:vite": "vite build",
-    "preview": "vite preview --port 2323",
-    "deploy": "vite build && gh-pages -d example/dist",
-    "test": "vitest "
+    "test": "vitest",
+    "dev": "vite"
   },
   "devDependencies": {
     "@innei-util/eslint-config-react-ts": "0.8.2",
@@ -52,20 +54,19 @@
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-typescript": "8.3.2",
     "@types/node": "17.0.31",
-    "@zerollup/ts-transform-paths": "1.7.18",
-    "dts-bundle-generator": "6.9.0",
     "gh-pages": "3.2.3",
     "husky": "8.0.1",
-    "lint-staged": "12.4.1",
+    "lint-staged": "12.4.3",
     "prettier": "2.6.2",
-    "rollup": "2.72.1",
+    "rollup": "2.75.3",
+    "rollup-plugin-import-css": "3.0.3",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-terser": "7.0.2",
+    "tsconfig-replace-paths": "0.0.11",
     "tslib": "2.4.0",
-    "ttypescript": "1.5.13",
-    "typescript": "4.6.4",
-    "vite": "2.9.8",
-    "vite-tsconfig-paths": "3.4.1",
-    "vitest": "0.12.1"
+    "typescript": "4.7.2",
+    "vite": "2.9.9",
+    "vite-tsconfig-paths": "3.5.0",
+    "vitest": "0.13.0"
   }
 }
