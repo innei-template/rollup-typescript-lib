@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "outDir": "../esm",
     "baseUrl": ".",
     "jsx": "react",
     "target": "ES2020",
@@ -31,6 +30,6 @@
     "esm/*",
     "build/*",
     "node_modules/*",
-    "lib/*"
+    "lib/*",
   ]
 }

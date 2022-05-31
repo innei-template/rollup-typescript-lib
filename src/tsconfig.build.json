@@ -1,5 +1,8 @@
 {
   "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../esm",
+  },
   "exclude": [
     "__tests__/**/*.ts"
   ]

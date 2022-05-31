@@ -75,7 +75,10 @@ const config = [
     plugins: [
       nodeResolve(),
       commonjs({ include: 'node_modules/**' }),
-      typescript({ tsconfig: './src/tsconfig.json', declaration: false }),
+      typescript({
+        tsconfig: './src/tsconfig.build.json',
+        declaration: false,
+      }),
       css(),
       // esbuild({
       //   include: /\.[jt]sx?$/,
