@@ -14,7 +14,8 @@
     "lib",
     "esm",
     "readme.md",
-    "tsconfig.json"
+    "tsconfig.json",
+    "types"
   ],
   "engines": {
     "pnpm": ">=7"
