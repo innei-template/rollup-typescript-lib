@@ -67,7 +67,16 @@ esbuild({
 }),
 ```
 
-
 ## PostCSS & CSS Module
 
 Enable default now.
+
+Nest selector is supported too.
+
+To build css extract a file not bundle into js, un-comment this.
+
+```ts
+css({
+  extract: true,
+})
+```

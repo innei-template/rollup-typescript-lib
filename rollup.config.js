@@ -78,7 +78,9 @@ const config = [
         tsconfig: './src/tsconfig.build.json',
         declaration: false,
       }),
-      css(),
+      css({
+        // extract: true,
+      }),
       // esbuild({
       //   include: /\.[jt]sx?$/,
       //   exclude: /node_modules/,
