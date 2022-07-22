@@ -1,5 +1,7 @@
 # Rollup Typescript library template
 
+A simple TypeScript library template. Quick to start dev, build a Pure TypeScript or React Component library.
+
 Please use pnpm do this.
 
 ```sh
@@ -24,82 +26,48 @@ Start dev mode by Vite.
 npm run dev
 ```
 
-### Delopy
+### Deploy
 
-Delopy example to GitHub Pages.
+Deploy example to GitHub Pages.
 
 ```
-npm run delopy
+npm run deploy
 npm run publish
 ```
 
 # Additional
 
-## Babel & React
+## ESBuild & React
 
 If you want to bundle React JSX with rollup. Add additional packages.
 
 ```
-pnpm i -D @babel/preset-react @babel/core @rollup/plugin-babel
+pnpm i -D rollup-plugin-esbuild
 ```
 
-And, un-comment this in `.babelrc`.
+And, un-comment this in `rollup.config.ts`.
 
-```json
-{
-  "presets": ["@babel/preset-react"]
-}
+```ts
+esbuild({
+  include: /\.[jt]sx?$/,
+  exclude: /node_modules/,
+  sourceMap: false,
+  minify: process.env.NODE_ENV === 'production',
+  target: 'es2017',
+  jsxFactory: 'React.createElement',
+  jsxFragment: 'React.Fragment',
+  define: {
+    __VERSION__: '"x.y.z"',
+  },
+  tsconfig: './src/tsconfig.json',
+  loaders: {
+    '.json': 'json',
+    '.js': 'jsx',
+  },
+}),
 ```
 
-Un-comment this in `rollup.config.js`
-
-```js
-import { babel } from '@rollup/plugin-babel'
-
-// ...
-
-plugins: [
-    // ...
-   babel({}),
-  ],
-//...
-```
 
 ## PostCSS & CSS Module
 
-Create `postcss.config.js` in root folder, copy follow content.
-
-```js
-module.exports = {
-  plugins: {
-    'postcss-preset-env': {
-      autoprefixer: {
-        flexbox: 'no-2009',
-      },
-      stage: 3,
-      features: {
-        'custom-properties': false,
-        'nesting-rules': false,
-      },
-    },
-  },
-}
-```
-
-And, install dependencies.
-
-```bash
-pnpm i postcss postcss-preset-env rollup-plugin-postcss -D
-```
-
-Then, add rollup plugin.
-
-```js
-// rollup.config.js
-import postcss from 'rollup-plugin-postcss'
-
-// plugins: [
-
-postcss({})
-// ],
-```
+Enable default now.

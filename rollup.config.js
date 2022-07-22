@@ -1,5 +1,4 @@
 // @ts-check
-// import { babel } from '@rollup/plugin-babel'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
@@ -99,7 +98,6 @@ const config = [
       // }),
       // @ts-ignore
       peerDepsExternal(),
-      // babel({}),
     ],
 
     treeshake: true,
