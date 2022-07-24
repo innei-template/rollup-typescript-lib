@@ -9,6 +9,9 @@
       "~": [
         "./src"
       ]
-    }
+    },
+    "types": [
+      "vitest/globals"
+    ]
   }
 }

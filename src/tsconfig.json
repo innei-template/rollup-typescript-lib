@@ -18,7 +18,8 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "vitest/globals"
     ],
     "paths": {
       "~/*": [
