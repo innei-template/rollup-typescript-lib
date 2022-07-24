@@ -56,6 +56,7 @@
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-typescript": "8.3.3",
     "@types/node": "18.0.6",
+    "@unocss/preset-wind": "0.44.5",
     "gh-pages": "4.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
@@ -70,6 +71,7 @@
     "tsc-alias": "1.7.0",
     "tslib": "2.4.0",
     "typescript": "4.7.4",
+    "unocss": "0.44.5",
     "vite": "3.0.2",
     "vite-tsconfig-paths": "3.5.0",
     "vitest": "0.18.1"
