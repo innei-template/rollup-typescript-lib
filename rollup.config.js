@@ -1,10 +1,10 @@
 // @ts-check
+import esbuild from 'rollup-plugin-esbuild'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 
 import commonjs from '@rollup/plugin-commonjs'
-// import esbuild from 'rollup-plugin-esbuild'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import typescript from '@rollup/plugin-typescript'
 
@@ -49,24 +49,30 @@ const config = [
         plugins: [terser()],
       },
       {
-        file: `${dir}/index.cjs.js`,
+        file: `${dir}/index.iife.min.js`,
+        format: 'iife',
+        name: umdName,
+        plugins: [terser()],
+      },
+      {
+        file: `${dir}/index.cjs`,
         format: 'cjs',
         sourcemap: true,
       },
       {
-        file: `${dir}/index.cjs.min.js`,
+        file: `${dir}/index.min.cjs`,
         format: 'cjs',
         sourcemap: true,
         plugins: [terser()],
       },
       {
-        file: `${dir}/index.esm.js`,
-        format: 'es',
+        file: `${dir}/index.js`,
+        format: 'esm',
         sourcemap: true,
       },
       {
-        file: `${dir}/index.esm.min.js`,
-        format: 'es',
+        file: `${dir}/index.min.js`,
+        format: 'esm',
         sourcemap: true,
         plugins: [terser()],
       },
@@ -81,23 +87,23 @@ const config = [
       css({
         // extract: true,
       }),
-      // esbuild({
-      //   include: /\.[jt]sx?$/,
-      //   exclude: /node_modules/,
-      //   sourceMap: false,
-      //   minify: process.env.NODE_ENV === 'production',
-      //   target: 'es2017',
-      //   jsxFactory: 'React.createElement',
-      //   jsxFragment: 'React.Fragment',
-      //   define: {
-      //     __VERSION__: '"x.y.z"',
-      //   },
-      //   tsconfig: './src/tsconfig.json',
-      //   loaders: {
-      //     '.json': 'json',
-      //     '.js': 'jsx',
-      //   },
-      // }),
+      esbuild({
+        include: /\.[jt]sx?$/,
+        exclude: /node_modules/,
+        sourceMap: false,
+        minify: process.env.NODE_ENV === 'production',
+        target: 'es2017',
+        jsxFactory: 'React.createElement',
+        jsxFragment: 'React.Fragment',
+        define: {
+          __VERSION__: '"x.y.z"',
+        },
+        tsconfig: './src/tsconfig.json',
+        loaders: {
+          '.json': 'json',
+          '.js': 'jsx',
+        },
+      }),
       // @ts-ignore
       peerDepsExternal(),
     ],

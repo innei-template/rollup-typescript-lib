@@ -9,7 +9,7 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "strict": true,
     "resolveJsonModule": true,
