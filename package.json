@@ -5,8 +5,8 @@
   "description": "TODO",
   "author": "Innei",
   "license": "MIT",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "types/index.d.ts",
   "type": "module",
   "exports": {
@@ -57,7 +57,7 @@
     "postbuild": "tsc-alias -p src/tsconfig.build.json && tsc-alias -p src/tsconfig.cjs.json && npm run types",
     "types": "rm -rf types && tsc --build src/tsconfig.types.json && tsc-alias -p src/tsconfig.types.json",
     "package": "NODE_ENV=production npm run build && rollup -c",
-    "prepackage": "rm -rf build",
+    "prepackage": "rm -rf dist",
     "test": "vitest",
     "dev": "vite"
   },
