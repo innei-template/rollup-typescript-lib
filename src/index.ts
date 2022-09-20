@@ -1,4 +1,4 @@
-import { getTime } from '~/utils'
+import { getTime } from '~/utils/index.js'
 
 import './index.css'
 
