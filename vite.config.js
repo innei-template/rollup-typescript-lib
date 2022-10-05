@@ -1,9 +1,8 @@
+import { resolve } from 'path'
 import { presetAttributify, presetWind } from 'unocss'
 import unoCSS from 'unocss/vite'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-
-const { resolve } = require('path')
 
 export default defineConfig({
   base: '',
