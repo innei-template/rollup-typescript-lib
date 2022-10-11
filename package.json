@@ -49,7 +49,8 @@
     "before": [
       "npm run package"
     ],
-    "publish": true
+    "publish": true,
+    "changelog": true
   },
   "scripts": {
     "prebuild": "rm -rf lib && rm -rf esm",
@@ -59,7 +60,8 @@
     "package": "NODE_ENV=production npm run build && rollup -c",
     "prepackage": "rm -rf dist",
     "test": "vitest",
-    "dev": "vite"
+    "dev": "vite",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@innei/eslint-config-react-ts": "0.9.4",
