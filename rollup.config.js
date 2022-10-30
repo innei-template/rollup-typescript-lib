@@ -1,4 +1,5 @@
 // @ts-check
+import { readFileSync } from 'fs'
 import esbuild from 'rollup-plugin-esbuild'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-postcss'
@@ -8,7 +9,9 @@ import commonjs from '@rollup/plugin-commonjs'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import typescript from '@rollup/plugin-typescript'
 
-const packageJson = require('./package.json')
+const packageJson = JSON.parse(
+  readFileSync('./package.json', { encoding: 'utf-8' }),
+)
 
 const umdName = packageJson.name
 
@@ -95,9 +98,6 @@ const config = [
         target: 'es2017',
         jsxFactory: 'React.createElement',
         jsxFragment: 'React.Fragment',
-        define: {
-          __VERSION__: '"x.y.z"',
-        },
         tsconfig: './src/tsconfig.json',
         loaders: {
           '.json': 'json',

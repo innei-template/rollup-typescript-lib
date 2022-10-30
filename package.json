@@ -31,9 +31,6 @@
     "types",
     "src"
   ],
-  "engines": {
-    "pnpm": ">=7"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -61,36 +58,38 @@
     "prepackage": "rm -rf dist",
     "test": "vitest",
     "dev": "vite",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "bump"
   },
   "devDependencies": {
-    "@innei/eslint-config-react-ts": "0.9.4",
-    "@innei/eslint-config-ts": "0.9.4",
-    "@innei/prettier": "0.9.4",
-    "@rollup/plugin-commonjs": "22.0.2",
-    "@rollup/plugin-node-resolve": "14.0.1",
-    "@rollup/plugin-typescript": "8.5.0",
-    "@types/node": "18.7.16",
-    "@unocss/preset-wind": "0.45.18",
-    "esbuild": "0.15.8",
+    "@innei/bump-version": "1.0.1",
+    "@innei/eslint-config-react-ts": "0.9.5",
+    "@innei/eslint-config-ts": "0.9.5",
+    "@innei/prettier": "0.9.5",
+    "@rollup/plugin-commonjs": "23.0.2",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-typescript": "9.0.2",
+    "@types/node": "18.11.7",
+    "@unocss/preset-wind": "0.46.1",
+    "esbuild": "0.15.12",
     "gh-pages": "4.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "postcss": "8.4.16",
+    "postcss": "8.4.18",
     "postcss-import": "15.0.0",
-    "postcss-nested": "5.0.6",
+    "postcss-nested": "6.0.0",
     "prettier": "2.7.1",
-    "rollup": "2.79.0",
+    "rollup": "3.2.3",
     "rollup-plugin-esbuild": "4.10.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "4.0.2",
     "rollup-plugin-terser": "7.0.2",
     "tsc-alias": "1.7.0",
     "tslib": "2.4.0",
-    "typescript": "4.8.3",
-    "unocss": "0.45.18",
-    "vite": "3.1.0",
-    "vite-tsconfig-paths": "3.5.0",
-    "vitest": "0.23.1"
+    "typescript": "4.8.4",
+    "unocss": "0.46.1",
+    "vite": "3.2.1",
+    "vite-tsconfig-paths": "3.5.2",
+    "vitest": "0.24.3"
   }
 }
