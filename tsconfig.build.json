@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./esm",
+  },
+  "exclude": [
+    "esm/*",
+    "build/*",
+    "node_modules/*",
+    "lib/*",
+    "example/*",
+    "vitest.config.ts",
+    "vite.config.ts",
+    "__tests__/*",
+    "src/__tests__/*"
+  ]
+}

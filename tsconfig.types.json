@@ -2,8 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "commonjs",
-    "rootDir": ".",
-    "outDir": "../types",
+    "rootDir": "./src",
+    "outDir": "./types",
     "declaration": true,
     "declarationMap": false,
     "isolatedModules": false,
@@ -12,7 +12,13 @@
     "emitDeclarationOnly": true
   },
   "exclude": [
-    "__tests__/**/*",
-    "**/*.test.ts"
+    "esm/*",
+    "build/*",
+    "node_modules/*",
+    "lib/*",
+    "example/*",
+    "vitest.config.ts",
+    "vite.config.ts",
+    "src/__tests__/*"
   ]
 }

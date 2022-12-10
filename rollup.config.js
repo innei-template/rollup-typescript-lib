@@ -84,7 +84,7 @@ const config = [
       nodeResolve(),
       commonjs({ include: 'node_modules/**' }),
       typescript({
-        tsconfig: './src/tsconfig.build.json',
+        tsconfig: './tsconfig.build.json',
         declaration: false,
       }),
       css({
@@ -98,7 +98,7 @@ const config = [
         target: 'es2017',
         jsxFactory: 'React.createElement',
         jsxFragment: 'React.Fragment',
-        tsconfig: './src/tsconfig.json',
+        tsconfig: './tsconfig.json',
         loaders: {
           '.json': 'json',
           '.js': 'jsx',
