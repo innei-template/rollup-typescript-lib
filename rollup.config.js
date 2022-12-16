@@ -1,9 +1,8 @@
 // @ts-check
 import { readFileSync } from 'fs'
-import esbuild from 'rollup-plugin-esbuild'
+import esbuild, { minify } from 'rollup-plugin-esbuild'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-postcss'
-import { terser } from 'rollup-plugin-terser'
 
 import commonjs from '@rollup/plugin-commonjs'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
@@ -49,13 +48,13 @@ const config = [
         format: 'umd',
         sourcemap: true,
         name: umdName,
-        plugins: [terser()],
+        plugins: [minify()],
       },
       {
         file: `${dir}/index.iife.min.js`,
         format: 'iife',
         name: umdName,
-        plugins: [terser()],
+        plugins: [minify()],
       },
       {
         file: `${dir}/index.cjs`,
@@ -66,7 +65,7 @@ const config = [
         file: `${dir}/index.min.cjs`,
         format: 'cjs',
         sourcemap: true,
-        plugins: [terser()],
+        plugins: [minify()],
       },
       {
         file: `${dir}/index.js`,
@@ -77,7 +76,7 @@ const config = [
         file: `${dir}/index.min.js`,
         format: 'esm',
         sourcemap: true,
-        plugins: [terser()],
+        plugins: [minify()],
       },
     ],
     plugins: [
