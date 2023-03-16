@@ -12,8 +12,6 @@ const packageJson = JSON.parse(
   readFileSync('./package.json', { encoding: 'utf-8' }),
 )
 
-const umdName = packageJson.name
-
 const globals = {
   // @ts-ignore
   ...(packageJson?.dependencies || {}),
@@ -37,25 +35,6 @@ const config = [
     ],
 
     output: [
-      {
-        file: `${dir}/index.umd.js`,
-        format: 'umd',
-        sourcemap: true,
-        name: umdName,
-      },
-      {
-        file: `${dir}/index.umd.min.js`,
-        format: 'umd',
-        sourcemap: true,
-        name: umdName,
-        plugins: [minify()],
-      },
-      {
-        file: `${dir}/index.iife.min.js`,
-        format: 'iife',
-        name: umdName,
-        plugins: [minify()],
-      },
       {
         file: `${dir}/index.cjs`,
         format: 'cjs',
