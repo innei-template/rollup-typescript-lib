@@ -1,6 +1,6 @@
 // @ts-check
 import { readFileSync } from 'fs'
-import esbuild, { minify } from 'rollup-plugin-esbuild'
+import { minify } from 'rollup-plugin-esbuild'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-postcss'
 
@@ -68,21 +68,11 @@ const config = [
       css({
         // extract: true,
         minimize: true,
-      }),
-      esbuild({
-        include: /\.[jt]sx?$/,
-        exclude: /node_modules/,
-        sourceMap: false,
-        minify: process.env.NODE_ENV === 'production',
-        target: 'es2017',
-        jsxFactory: 'React.createElement',
-        jsxFragment: 'React.Fragment',
-        tsconfig: './tsconfig.json',
-        loaders: {
-          '.json': 'json',
-          '.js': 'jsx',
+        modules: {
+          generateScopedName: '[hash:base64:5]',
         },
       }),
+
       // @ts-ignore
       peerDepsExternal(),
     ],
