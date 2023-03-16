@@ -67,6 +67,7 @@ const config = [
       }),
       css({
         // extract: true,
+        minimize: true,
       }),
       esbuild({
         include: /\.[jt]sx?$/,
