@@ -1,0 +1,9 @@
+{
+  "name": "example",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "my-awesome-lib": "link:../"
+  }
+}

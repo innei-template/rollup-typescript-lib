@@ -1,0 +1,10 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  my-awesome-lib:
+    specifier: link:../
+    version: link:..
