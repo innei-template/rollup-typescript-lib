@@ -5,8 +5,21 @@
   "description": "TODO",
   "author": "Innei",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Innei/rollup-typescript-lib",
+    "directory": "Innei/rollup-typescript-lib"
+  },
   "type": "module",
   "main": "./src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./*": {
+      "import": "./src/*"
+    }
+  },
   "publishConfig": {
     "main": "dist/index.cjs",
     "module": "dist/index.js",
@@ -60,7 +73,6 @@
     "package": "NODE_ENV=production npm run build && rollup -c",
     "prepackage": "rm -rf dist",
     "test": "vitest",
-    "dev": "pnpm -C example run dev",
     "prepare": "husky install && cd example && pnpm i",
     "release": "bump"
   },

@@ -4,6 +4,12 @@
     "dev": "vite"
   },
   "dependencies": {
-    "my-awesome-lib": "link:../"
+    "@unocss/reset": "0.55.1",
+    "my-awesome-lib": "link:../",
+    "vue": "3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.3.0",
+    "@vitejs/plugin-vue-jsx": "3.0.2"
   }
 }

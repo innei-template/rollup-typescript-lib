@@ -1,7 +1,9 @@
-import { date, test } from 'my-awesome-lib'
-
 import './index.css'
 import 'uno.css'
+import '@unocss/reset/tailwind.css'
 
-test()
-console.log(date)
+import { createApp } from 'vue'
+
+import App from './App.vue'
+
+createApp(App).mount('#app')

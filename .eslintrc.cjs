@@ -5,5 +5,5 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: ['@innei/eslint-config-react-ts'],
+  extends: ['@innei/eslint-config-ts'],
 }
