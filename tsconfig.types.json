@@ -4,11 +4,13 @@
     "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./types",
+    "moduleResolution": "Node",
     "declaration": true,
     "declarationMap": false,
     "isolatedModules": false,
     "allowJs": false,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "types": [],
   },
   "exclude": [
     "esm/*",
